@@ -69,7 +69,6 @@ public class LogicaClasificacion {
     return pila.isEmpty();
 }
 
-
     /**
      * Ordena una pila de enteros en orden ascendente usando otra pila auxiliar.
      *
@@ -79,6 +78,7 @@ public class LogicaClasificacion {
      *         Entrada: [3, 1, 4, 2]
      *         Salida: [1, 2, 3, 4]
      */
+
 
     public List<Integer> ordenarPila(Stack<Integer> pila) {
     Stack<Integer> aux = new Stack<>();
